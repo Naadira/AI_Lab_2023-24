@@ -13,17 +13,9 @@ To write a python program to implement Breadth first Search.
 7.   Call the bfs function by passing arguments visited, graph and starting node.
 8.   Stop the program.
 ### Program:
-   graph = {
-  '5' : ['3','7'],
-  '3' : ['2', '4'],
-  '7' : ['8'],
-  '2' : [],
-  '4' : ['8'],
-  '8' : []
-}
-
+```
+graph = {'5' : ['3','7'],'3' : ['2', '4'],'7' : ['8'],'2' : [],'4' : ['8'],'8' : []}
 visited = [] 
-
 queue = []   
 def bfs(visited, graph, node): 
   visited.append(node)
@@ -37,7 +29,10 @@ def bfs(visited, graph, node):
       if neighbour not in visited:
         visited.append(neighbour)
         queue.append(neighbour)
+print("BFS order is:")
 bfs(visited, graph, '5')
+
+```
 ### Output:
 ![Screenshot (12)](https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/5837de47-891b-4db9-9a41-8069620a999e)
 
