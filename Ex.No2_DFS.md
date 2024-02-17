@@ -33,6 +33,7 @@ def dfs(visited, graph, node):
 print("Depth First Search order is:")
 dfs(visited, graph, '5')
 ```
+
 ### Output:
 ![Screenshot (14)](https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/cff873c7-bfe6-46cb-996a-b3c54c011458)
 
