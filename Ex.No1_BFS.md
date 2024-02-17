@@ -31,10 +31,8 @@ def bfs(visited, graph, node):
         queue.append(neighbour)
 print("BFS order is:")
 bfs(visited, graph, '5')
-
 ```
 ### Output:
 ![Screenshot (12)](https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/5837de47-891b-4db9-9a41-8069620a999e)
-
 ### Result:
 Thus the breadth first search order was found sucessfully.
