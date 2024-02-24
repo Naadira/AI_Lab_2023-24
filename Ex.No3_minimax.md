@@ -35,6 +35,5 @@ print(minimax(0, 0, True, scores,treeDepth))
 ```
 ### Output:
 ![Screenshot (15)](https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/00c6cfb6-74d6-4a88-a8bb-4f1c77976061)
-
 ### Result:
 Thus the optimum value of max player was found using minimax search.
