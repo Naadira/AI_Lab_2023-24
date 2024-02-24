@@ -29,8 +29,6 @@ def minimax(depth, nodeIndex, maximizingPlayer,values, alpha, beta):
             if beta <= alpha:
                 break
         return best
-```
-```
     else:
         best = MAX
         for i in range(0, 2):
@@ -42,7 +40,6 @@ def minimax(depth, nodeIndex, maximizingPlayer,values, alpha, beta):
         return best
 values = [3, 5, 6, 9, 1, 2, 0, -1]
 print("The optimal value is :", minimax(0, 0, True, values,MIN,MAX))
-```
 ### Output:
 ![Screenshot (16)](https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/91b74d4f-d575-45dc-9edf-429f6494f6e1)
 ### Result:
