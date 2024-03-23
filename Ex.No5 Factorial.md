@@ -21,6 +21,6 @@ factorial(A,B) :-
  B is A*D.
 ```
 ### Output:
-![image](https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/099518c1-d2ee-4a4c-bb0d-dc96e5f8dbc4)
+![image](https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/7cca35c3-93c7-44c7-8b5b-6384a3f469a1)
 ### Result:
 Thus the factorial of given number was found by logic programming. 
