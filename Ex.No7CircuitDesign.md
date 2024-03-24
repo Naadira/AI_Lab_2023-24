@@ -2,7 +2,7 @@
 ### DATE: 23/03/2024                                                                            
 ### REGISTER NUMBER : 212221220034
 ### AIM: 
-To write a logic program to design a circuit like half adder and half subtractor.
+To write a logic program to design a circuit like half adder, half subtractor and full adder .
 ###  Algorithm:
 1. Start the Program
 2. Design a AND gate logic if both inputs are 1 then output is 1.
