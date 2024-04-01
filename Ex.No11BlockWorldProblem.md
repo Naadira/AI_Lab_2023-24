@@ -47,7 +47,7 @@ Step 10 : Obtain the plan for given problem.<br>
 ```
 
 ### Input:
-Problem 1: Problem.pddl
+Problem 1: Problem1.pddl
 ```
 (define (problem pb1)
    (:domain blocksworld)
