@@ -66,9 +66,13 @@ Problem 2: Problem2.pddl
 ```
 ### Output/Plan:
 Output-1:
+
+
 <img src="https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/8e3d7fa4-a2a6-4f27-b8fc-df0084c61ba9" alt="" width="75%" height="70%">
 
 Output-2:
+
+
 <img src="https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/c83b752c-cf6d-4316-98d8-98e8d5344eab" alt="" width="75%" height="70%">
 
 ### Result:
