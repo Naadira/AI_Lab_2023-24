@@ -55,10 +55,20 @@ Problem 1: Problem.pddl
    (:init (on-table a) (on-table b)  (clear a)  (clear b) (arm-empty))
    (:goal (and (on a b)))
 ```
-
+Problem 2: Problem2.pddl
+```
+(define(problem pb3)
+	   (:domain blocksworld)
+	   (:objects a b c)
+	   (:init (on-table a) (on-table b)   (on-table c)  
+	          (clear a)  (clear b) (clear c) (arm-empty))
+	   (:goal (and (on a b) (on b c))))
+```
 ### Output/Plan:
+Output-1:
 <img src="https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/8e3d7fa4-a2a6-4f27-b8fc-df0084c61ba9" alt="" width="50%" height="50%">
-
+Output-2:
+<img src="https://github.com/Naadira/AI_Lab_2023-24/assets/128135126/c83b752c-cf6d-4316-98d8-98e8d5344eab" alt="" width="75%" height="50%">
 
 ### Result:
 Thus the plan was found for the initial and goal state of block world problem.
