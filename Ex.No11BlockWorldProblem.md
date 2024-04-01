@@ -57,7 +57,7 @@ Problem 1: Problem.pddl
 ```
 Problem 2: Problem2.pddl
 ```
-(define(problem pb3)
+(define(problem pb2)
 	   (:domain blocksworld)
 	   (:objects a b c)
 	   (:init (on-table a) (on-table b)   (on-table c)  
