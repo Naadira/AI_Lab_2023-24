@@ -6,7 +6,6 @@ To write a program to train the classifier for diabetes.
 ###  Algorithm:
 
 ### Program:
-```
 import numpy as np
 import pandas as pd
 data=pd.read_csv("/content/diabetes.csv")
@@ -51,7 +50,7 @@ def diabetes(Pregnancies, Glucose, Blood_Pressure, SkinThickness, Insulin, BMI,D
 outputs = gr.Textbox()
 app = gr.Interface(fn=diabetes, inputs=['number','number','number','number','number','number','number','number'], outputs=outputs,description="Detection of Diabeties")
 app.launch(share=True)
-```
+
 ### Output:
 
 
